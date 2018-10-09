@@ -8,7 +8,7 @@ Notes and code for the London Lucene Hackday 2018
 * Sense plugin for Elasticsearch https://www.elastic.co/guide/en/sense/current/installing.html
 * Luke https://github.com/DmitryKey/luke
 * Clue https://github.com/javasoze/clue
-
+![whiteboard1](https://github.com/flaxsearch/london-hackday-2018/blob/master/IMAG2335.jpg)
 
 # Task 2: Review Alessandro's various Lucene and Solr JIRA tickets:
 * Bugs
