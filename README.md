@@ -21,3 +21,11 @@ Task 2: Review Alessandro's various Lucene and Solr JIRA tickets:
 * https://issues.apache.org/jira/browse/LUCENE-8347 BlendedInfixSuggester Improvement* 
 * https://issues.apache.org/jira/browse/SOLR-12238 Synonym Query Style Boost By Payload
 * https://issues.apache.org/jira/browse/SOLR-12243 Edismax Bug ( Elizabeth Haubert, me)
+
+Task3: Review issue 'Different Solr replicas give different result positions' from https://github.com/flaxsearch/london-hackday-2016 item 3 - what's the current state of play with this? 
+
+* References: https://mail-archives.apache.org/mod_mbox/lucene-solr-user/201301.mbox/%3Czarafa.51006f06.0ea4.1386468330e702d7@mail.openindex.io%3E
+
+* Here is our working branch: https://github.com/fguery/lucene-solr/tree/replicaChoice
+
+* Useful command: cd solr/core ant test -Dtestcase=DistributedQueryComponentReplicaMarkerTest
