@@ -1,5 +1,5 @@
 # london-hackday-2018
-Notes and code for the London Lucene Hackday 2018
+Notes and code for the London Lucene Hackday 2018 (see below for notes on the Montreal hackday that followed a week afterwards)
 
 # Task 1: How can we build a command-line application for inspecting Lucene indexes? Some of these may be very large and use versions of Lucene from 4.x upwards. Considering various existing projects such as:
 * Marple https://github.com/flaxsearch/marple
@@ -35,3 +35,5 @@ Reference for how to contribute to Lucene/Solr:
 * Here is our working branch: https://github.com/fguery/lucene-solr/tree/replicaChoice
 
 * Useful command: cd solr/core ant test -Dtestcase=DistributedQueryComponentReplicaMarkerTest
+
+#montreal-hackday-2018
