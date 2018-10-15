@@ -41,4 +41,8 @@ Reference for how to contribute to Lucene/Solr:
 * Andy Hind of Oracle has worked on a patch to create a Query Parser for MinHash queries, a development on https://issues.apache.org/jira/browse/LUCENE-6968
 * Matt Pearce of Flax worked on adapting Flax's Harahachibu https://github.com/flaxsearch/harahachibu to work with the Solr Metrics API as another source of data to indicate that storage might be full
 * Steve Rowe of Lucidworks and Liz Haubert of OSC worked on https://issues.apache.org/jira/browse/SOLR-12243 and ended up separating it into two bugs - one in Lucene as https://issues.apache.org/jira/browse/LUCENE-8531 and the remainder on the original ticket - a fix for the Lucene bug has been proposed
-* 
+* Ravindra Harige discussed with Lucene committers how the process works for committing changes to Lucene/Solr
+* Alex Rafalovitch discussed with several people improving the onboarding process for new users of Lucene/Solr
+* Michael Suzuki of Alfresco worked on https://issues.apache.org/jira/browse/SOLR-11589 a ticket to add eigen decomposition support to the Stream Expression machine learning library.
+* Varun Thacker of Lucidworks worked on improving autoscaling suggestions https://issues.apache.org/jira/browse/SOLR-11359 
+* Christine Poerschke of Bloomberg worked on how to plug a Deeplearning4j model into Solr streaming expressions (see issue #5429 on Deeplearning4j's Github); revised https://issues.apache.org/jira/browse/SOLR-12699 (a LTR patch for Solr); cleaned up some Solrconfig.xml code https://issues.apache.org/jira/browse/SOLR-12873 
