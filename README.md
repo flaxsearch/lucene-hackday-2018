@@ -36,4 +36,4 @@ Reference for how to contribute to Lucene/Solr:
 
 * Useful command: cd solr/core ant test -Dtestcase=DistributedQueryComponentReplicaMarkerTest
 
-#montreal-hackday-2018
+# montreal-hackday-2018
