@@ -37,3 +37,8 @@ Reference for how to contribute to Lucene/Solr:
 * Useful command: cd solr/core ant test -Dtestcase=DistributedQueryComponentReplicaMarkerTest
 
 # montreal-hackday-2018
+
+* Andy Hind of Oracle has worked on a patch to create a Query Parser for MinHash queries, a development on https://issues.apache.org/jira/browse/LUCENE-6968
+* Matt Pearce of Flax worked on adapting Flax's Harahachibu to work with the Solr Metrics API as another source of data to indicate that storage might be full
+* Steve Rowe of Lucidworks and Liz Haubert of OSC worked on https://issues.apache.org/jira/browse/SOLR-12243 and ended up separating it into two bugs - one in Lucene as https://issues.apache.org/jira/browse/LUCENE-8531 and the remainder on the original ticket - a fix for the Lucene bug has been proposed
+* 
