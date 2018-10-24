@@ -42,6 +42,11 @@ Results: the team were taken through the process of reporting bugs and creating 
 
 Results: the team managed to reproduce the issue with indexes as small as 50 documents: different numbers of deleted documents in a replica caused different term statistics and thus different result ordering.
 
+René Kriegler comments:
+"There is an additional issue with floating point operation precision across JVMs. There is actually no guarantee in Java that a math calculation using numbers of type float will result in exactly the same floating point number across JVM instances (even for the same JVM version). We rarely run into issues here, but I’ve seen a Solr custom plugin having problems when calculating scores. 
+
+I think there is nothing that prevents the issue in standard Lucene similarity calculations - we are probably just lucky that scores are normally discrete enough. To avoid the issue we would have to use the strictfp (https://www.codejava.net/java-core/the-java-language/java-keyword-strictfp) keyword to mark up components involved in the calculation."
+
 # montreal-hackday-2018
 
 * Andy Hind of Oracle has worked on a patch to create a Query Parser for MinHash queries, a development on https://issues.apache.org/jira/browse/LUCENE-6968 - now at https://issues.apache.org/jira/browse/SOLR-12879
